@@ -1,0 +1,28 @@
+.pagina-inicio {
+    padding-bottom: 30px;
+    background-color: #F5F6FA;
+
+    section {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin: 4rem 6rem;
+        gap: 2rem;
+        justify-content: center;
+        align-items: center;
+
+        h1 {
+            font: 700 26px "Roboto", sans-serif;
+            align-self: start;
+            margin-left: 4rem;
+        }
+
+        .exercicios {
+            display: flex;
+            flex-direction: row;
+            gap: 3rem;
+            flex-wrap: wrap;
+
+        }
+    }
+}
